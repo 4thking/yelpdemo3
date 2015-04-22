@@ -24,7 +24,7 @@ class ReviewsController < ApplicationController
         format.json { render :show, status: :created, location: @review }
       else
         format.html { render :new }
-        formant.json { render json: @review.errors, status: :unprocessable_entity }
+        format.json { render json: @review.errors, status: :unprocessable_entity }
       end
     end
   end
