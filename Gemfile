@@ -42,3 +42,4 @@ gem "mini_magick"
 gem 'rails_12factor', group: :production
 gem 'pg', group: :production
 gem 'devise'
+gem 'searchkick'
